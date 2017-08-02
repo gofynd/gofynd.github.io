@@ -15,4 +15,4 @@ markdown: kramdown
 gems:
   - jekyll-feed
 
-permalink: /:categories/:title.html
+permalink: /:categories/:title
