@@ -2,7 +2,7 @@
 layout: post
 title: "ANSIBLE METRICBEAT"
 name: "ansible-metricbeat"
-date: 2017-07-06 12:00:00
+date: 2015-05-31 12:00:00
 categories: project
 description: Ansible role to setup and configure MetricBeat
 
