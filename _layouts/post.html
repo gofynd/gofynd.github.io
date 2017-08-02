@@ -88,7 +88,7 @@ showHint(document.getElementById("projectname").value)
            <div class="github_link">
             <div class="github">See the source code</div>
             <span class="github_button">
-    <button class="view_rest"><a href="{{ page.github_url }}" class="view_all_link" target="_blank">Github</a></button>
+    <button class="view_rest" onclick="window.open('{{ page.github_url }}','_blank')" type="button" target="_blank">GITHUB</button>
 
             </span>
         </div>

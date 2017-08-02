@@ -417,6 +417,7 @@ t_special{
     font-size: 16px;
     color: white;
     font-family: 'Montserrat';
+    outline: none;
 }
 
 .view_roles:hover {
@@ -433,6 +434,7 @@ t_special{
     font-size: 16px;
     color: white;
     font-family: 'Montserrat';
+    outline: none;
 }
 
 
@@ -450,6 +452,7 @@ t_special{
     font-size: 16px;
     color: white;
     font-family: 'Montserrat';
+    outline: none;
 }
 
 .view_team:hover {
