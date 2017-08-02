@@ -1,0 +1,41 @@
+---
+layout: default
+title: Projects
+---    
+
+ 
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h1>OPEN PROJECTS</h1>
+    </div>
+</section>
+<div class="top">
+                <span class="top-text">
+                    <span>HOME > PROJECTS</span>
+                </span>
+    </div>
+
+<div class="projectcard">
+    {% for post in site.categories.project %}
+        <div class="p_wrapper">
+            <div class="major">
+                <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{post.img}}">
+                
+            </div>
+            <section class="p_container">
+                <h3>{{ post.title }}</h3>
+                <h4>{{post.description}}</h4>
+            </section>
+            <section class="p_special">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="view">VIEW PROJECT</a>
+            </section>
+        </div>
+    {% endfor %}
+</div>
+
+
+
+    
+        
+

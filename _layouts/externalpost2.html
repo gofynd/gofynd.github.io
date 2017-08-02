@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+
+<!----------------------------Start of Banner---------------------------->
+
+   <section id="banner">
+        <div class="p_banner">
+            <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{page.img}}">
+            <h1 class="p_title">{{ page.title }}</h1>
+            <h2 class="subtitle">{{ page.description }}</h2>
+        </div>
+    </section>
+<!----------------------------End of Banner---------------------------->
+
+
+    <div class="post-content">
+        <div class="external_link">
+            <div class="github">Read the documentation</div>
+            <span class="github_button">
+            <button class="view_rest" onclick="window.open('{{ page.redirect_url }}','_blank')" type="button">VIEW</button>
+            </span>
+            </div>
+
+        <div class="post-body">
+
+                {{ content }}
+            </div>
+
+            <div class="github_link">
+            <div class="github">Talk to us to know more</div>
+            <span class="github_button">
+    <button class="view_rest" onclick="window.open('{{ page.redirect_url2 }}','_blank')" type="button">GITTER</button>
+            </span>
+            </div>
+
+    </div>
+
+
+
+
+        {% include /footer.html %}
+
+    </body>
+
+</html>
+
+
+

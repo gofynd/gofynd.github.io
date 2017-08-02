@@ -1,0 +1,86 @@
+---
+layout: default
+title: Blog
+---    
+
+   
+ 
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h1>OUR BLOG</h1>
+    </div>
+</section>
+
+<div class="top">
+                <span class="top-text">
+                    <span>HOME > BLOG</span>
+                </span>
+    </div>
+<div class="blogcard">
+    {% for post in site.categories.blog %}
+
+    {% capture url_to_use %}{{ post.url" }}{% endcapture %}
+    {% if post.redirect_url %}
+      {% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
+    {% endif %}
+
+
+        <div class="b_wrapper">
+            
+            <section class="b_container">
+                <h3>{{ post.title }}</h3>
+                <h4 id="author">By {{post.author}}</h4>
+            </section>
+            <section class="b_special">
+                <a href="{{ url_to_use }}" class="view" target="_blank">READ BLOG</a>
+            </section>
+        </div>
+    {% endfor %}
+    </div>
+
+
+<!----------------------------Start of Blog----------------
+    <div class="content-pages" id="blog">
+       <h6>Home > Blog</h6>
+        
+        <div class="post">
+            <h3>How to create a single page application using react</h3>
+            <h6>by Jigar Dafda</h6>
+            <a href="#" id="post-view">View Post</a>
+        </div>
+        
+        <div class="project">
+          <h3>How to create a single page application using react</h3>
+            <h6>by Jigar Dafda</h6>
+            <a href="#" id="post-view">View Post</a>
+        </div>
+        
+        <div class="project">
+            <h3>How to create a single page application using react</h3>
+            <h6>by Jigar Dafda</h6>
+            <a href="#" id="post-view">View Post</a>
+        </div>
+        
+        <div class="project">
+            <h3>How to create a single page application using react</h3>
+            <h6>by Jigar Dafda</h6>
+            <a href="#" id="post-view">View Post</a>
+        </div>
+        
+        <article class="project">
+            <h3>How to create a single page application using react</h3>
+            <h6>by Jigar Dafda</h6>
+            <a href="#" id="post-view">View Post</a>
+        </article>
+        
+        <div class="project">
+            <h3>How to create a single page application using react</h3>
+            <h6>by Jigar Dafda</h6>
+            <a href="#" id="post-view">View Post</a>
+        </div>
+        
+        <a href="#" id="posts-load">Load More Posts</a>
+    </div>
+<!----------------------------End of Blog---------------------------->
+    

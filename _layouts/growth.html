@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+
+    <section id="banner">
+        <div class="p_banner">
+            <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{page.img}}">
+            <h1 class="p_title">{{ page.title }}</h1>
+        </div>
+    </section>
+
+    <div class="post-content">
+
+        <div class="post-body">
+            <h2 class="team-description">{{ page.description }}</h2>
+                {{ content }}
+            <h3>TEAM MEMBERS</h3>
+        <div class="team-members">
+        {% for post in site.categories.growth %}
+        <div class="m_wrapper">
+            <div class="profile_pic">
+                <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{post.img}}">
+            </div>
+            <section class="m_container">
+                <h5>{{ post.title }}</h5>
+                <h6>{{post.description}}</h6>
+            </section>
+        </div>
+        {% endfor %}
+        </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+        {% include /footer.html %}
+
+    </body>
+
+</html>

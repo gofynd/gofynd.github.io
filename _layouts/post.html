@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+    
+<!----------------------------Start of Banner---------------------------->
+        
+   <section id="banner">
+        <div class="p_banner">
+            <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{page.img}}">
+            <h1 class="p_title">{{ page.title }}</h1>
+            <h2 class="subtitle">{{ page.description }}</h2>
+            <input id="projectname" type="hidden" value="{{ page.name }}"/>
+        </div>
+    </section>
+<!----------------------------End of Banner---------------------------->
+        
+<script>
+function showHint(projectname) {
+    if (projectname.length == 0) {
+        document.getElementById("fork_count").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var json_resp = JSON.parse(this.responseText)
+                document.getElementById("fork_count").innerHTML = json_resp.forks_count;
+                document.getElementById("star_count").innerHTML = json_resp.stargazers_count;
+                document.getElementById("watcher_count").innerHTML = json_resp.subscribers_count;
+
+
+                var sampledate = '2017-03-06T08:41:26Z'
+                function getStructuredDate(TformatedDate){
+                var d = new Date(TformatedDate);
+                var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+                return [d.getDate(), monthNames[d.getMonth()], d.getFullYear()].join(' ')
+                }
+                document.getElementById("created_on").innerHTML = getStructuredDate(json_resp.created_at);
+
+
+            }
+        };
+        xmlhttp.open("GET", "https://api.github.com/repos/gofynd/" + projectname, true);
+        xmlhttp.send();
+    }
+}
+showHint(document.getElementById("projectname").value)
+
+
+
+
+</script>
+  
+    
+    <div class="post-content">
+        <div class="git">
+            <div class="git_data">
+                <div class="git_field">Forks</div>
+                <div class="git_value" id="fork_count">0</div>
+            </div>
+            <div class="git_data">
+                <div class="git_field">Stars</div>
+                <div class="git_value" id="star_count">0</div>
+            </div>
+            <div class="git_data">
+                <div class="git_field">Watchers</div>
+                <div class="git_value" id="watcher_count">0</div>
+            </div>
+            <div class="git_data">
+                <div class="git_field">Created on</div>
+                <div class="git_value" id="created_on">0</div>
+            </div>
+
+        </div>
+
+           <div class="post-body">
+                {{ content }}
+           </div>
+
+           <div class="github_link">
+            <div class="github">See the source code</div>
+            <span class="github_button">
+    <button class="view_rest"><a href="{{ page.github_url }}" class="view_all_link" target="_blank">Github</a></button>
+
+            </span>
+        </div>
+
+    </div>
+
+
+        
+           
+        {% include /footer.html %}
+
+    </body>
+
+</html>
+
+
+

@@ -1,0 +1,105 @@
+---
+layout: landing-page
+title: Home
+---    
+<section id="banner">
+    <div class="inner">
+        <h1>BUILD BETTER TOGETHER</h1>
+        <h2>Open sharing our engineering tools and data streams</h2>
+    </div>
+</section>
+  
+    
+<!----------------------------Start of Projects {{ post.excerpt }}---------------------------->
+<div>
+<div class="content-title">
+        <span>PROJECTS</span>  
+    </div>
+
+
+<div class="projectcard">
+    {% for post in site.categories.project limit:6 %}
+        <div class="p_wrapper">
+            <div class="major">
+                <img class="fit image" src="http://fynd-static.s3.amazonaws.com/engineering-fynd/{{post.img}}">
+                
+            </div>
+            <section class="p_container">
+                <h3>{{ post.title }}</h3>
+                <h4>{{post.description}}</h4>
+            </section>
+            <section class="p_special">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="view">VIEW PROJECT</a>
+            </section>
+        </div>
+    {% endfor %}
+</div>
+  
+<span class="view_all">
+    <button class="view_rest" onclick="location.href='{{ site.baseurl }}/projects.html'" type="button">VIEW ALL PROJECTS</button>
+</span>    
+
+</div>  
+
+
+ 
+
+<div>
+
+    <div class="content-title">
+        <span>FROM OUR BLOG</span>  
+    </div>
+                
+    <div class="blogcard">
+    {% for post in site.categories.blog limit:6 %}
+
+        {% capture url_to_use %}{{ post.url" }}{% endcapture %}
+    {% if post.redirect_url %}
+      {% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
+    {% endif %}
+
+        <div class="b_wrapper">
+            
+            <section class="b_container">
+                <h3>{{ post.title }}</h3>
+                <h4 id="author">By {{post.author}}</h4>
+            </section>
+            <section class="b_special">
+                <a href="{{ url_to_use }}" class="view" target="_blank">READ BLOG</a>
+            </section>
+        </div>
+    {% endfor %}
+    </div>
+
+
+<span class="view_all">
+    <button class="view_rest" onclick="location.href='{{ site.baseurl }}/blog.html'" type="button">VIEW ALL BLOG POSTS</button>
+
+</span>    
+    
+</div>
+        
+   
+<!----------------------------End of Blog---------------------------->
+    
+    
+
+<!----------------------------Start of Team---------------------------->
+    <div class="team">
+        <div class="team_container">
+        <h1>MEET THE TEAM</h1>
+        <p id="about">
+            At Fynd engineering is at the core of product development. Motto is to "Do more, with less!" That's why we automate everything. Our agile and efficient team build things beyond their domain knowledge, with the right guidance and collaboration. As Fynd is growing towards its goal, our engineers are getting better at what they love to do.
+        </p>
+        
+    <div>
+       <button class="view_team" onclick="location.href='{{ site.baseurl }}/team.html'" type="button">VIEW FULL TEAM</button>
+    </div>
+    
+        
+
+        </div>
+        
+        
+    </div>
+<!----------------------------<button class="view_rest" ><a href="{{ site.baseurl }}/blog.html" class="view_all_link">VIEW ALL BLOG POSTS</a></button>---------------------------->
