@@ -17,7 +17,7 @@ Alb Log Parser is a tool built on serverless framework which parses the ALB logs
 <br>
 
 <p>
-This tool deploys 3 lamda functions.</p>
+This tool deploys 3 Lambda functions.</p>
 
 <h3>
 Copy ALB Logs
