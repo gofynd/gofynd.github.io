@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FLASK APP SKELETON"
+title:  "Flask App Skeleton"
 date:   2018-02-25 12:00:00
 categories: project
 description: Flask boilerplate framework for developing large apps

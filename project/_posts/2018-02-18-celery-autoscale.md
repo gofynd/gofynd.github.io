@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CELERY AUTOSCALE"
+title:  "Celery Autoscale"
 date:   2018-02-18 12:00:00
 categories: project
 description: Push celery queue metrics on AWS cloudwatch for monitoring and autoscaling

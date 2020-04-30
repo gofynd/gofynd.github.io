@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "SIMPL PYTHON"
+title:  "Simpl Python"
 date:   2018-02-23 12:00:00
 categories: project
-description: Python Client for Simpl API
+description: Simpl-Python is a python client for Simpl API integration.
 img: simpl-python_logo.png
 github_url: "https://github.com/gofynd/simpl-python"
 
@@ -15,4 +15,3 @@ github_url: "https://github.com/gofynd/simpl-python"
 
 <br>
 <p>By Kingshuk and Ekwinder Saini</p>
-

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fynd Engineering</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 29 Apr 2020 14:06:45 +0530</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2020 14:06:45 +0530</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Fynd Now</title>
+        <description>&lt;head&gt;
+
+&lt;/head&gt;
+
+&lt;p&gt;Flask being micro web framework provides minimal set of attributes to make web application. To build large application using flask one need to design application in such a way that there is no cyclic imports. One also need to integrate ORM for database interaction, celery for async tasks, celery beat for scheduling jobs, cli commands for management tasks into application.
+Flask-Full is a boilerplate framework on top of flask for developing large api backend applications using flask. It has in built support for shell commands, celery, websocket, eventlet, mongoengine orm and rst docs.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Neeraj Shukla&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/fynd-now</link>
+        <guid isPermaLink="true">http://localhost:4000//project/fynd-now</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Flask App Skeleton</title>
+        <description>&lt;p&gt;Flask being micro web framework provides minimal set of attributes to make web application. To build large application using flask one need to design application in such a way that there is no cyclic imports. One also need to integrate ORM for database interaction, celery for async tasks, celery beat for scheduling jobs, cli commands for management tasks into application.
+Flask-Full is a boilerplate framework on top of flask for developing large api backend applications using flask. It has in built support for shell commands, celery, websocket, eventlet, mongoengine orm and rst docs.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Neeraj Shukla&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 25 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/flask-full</link>
+        <guid isPermaLink="true">http://localhost:4000//project/flask-full</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Ignite</title>
+        <description>&lt;p&gt;Ignite helps you run and manage multiple Spark jobs with variable environment on Google Dataproc. For development phase, the same can be simulated on Docker. User can also configure slack to get cluster status updates.&lt;/p&gt;
+
+&lt;h3&gt;Features:&lt;/h3&gt;
+
+&lt;p&gt;1. Manage Dataproc Cluster&lt;/p&gt;
+&lt;p&gt;2. Uploads Spark job code to GCS&lt;/p&gt;
+&lt;p&gt;3. Docker based Spark Job execution for development&lt;/p&gt;
+&lt;p&gt;4. Spark Job Submission&lt;/p&gt;
+&lt;p&gt;5. Slack Integration&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Vignesh Prajapati and Anirudha Vishvakarma&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/ignite</link>
+        <guid isPermaLink="true">http://localhost:4000//project/ignite</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Simpl Python</title>
+        <description>&lt;p&gt;Simpl is a payment aggregator, which supports pay later mode of payment. Simpl-Python is a python client for Simpl API integration. All one needs to configure is the Simpl’s client_id and the environment that is needed i.e Sandbox/Prod and its ready to go. One to validate customer, create payment, make refunds and many more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Kingshuk and Ekwinder Saini&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/simpl-python</link>
+        <guid isPermaLink="true">http://localhost:4000//project/simpl-python</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Nq2sq</title>
+        <description>&lt;p&gt;Tool to convert natural language questions as input and query over MySQL database to answer that questions by transforming questions to appropriate SQL query. Initially the scope of this tool is limited to single table only.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Vignesh Prajapati and Siva subramani&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/NQ2SQ</link>
+        <guid isPermaLink="true">http://localhost:4000//project/NQ2SQ</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Stark</title>
+        <description>&lt;p&gt;Soap services are quite heavy weight and can be tedious to work with. Though these services are still important assets to many organisations it would be much easier to work with JSON rather than working with SOAP which is xml based( its no fun! ). With Stark — A lightweight java service you can easily consume SOAP web services and transform it into REST APIs. Stark enables you to provide a SOAP WSDL URL and it returns you it’s REST transformed end-points.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Muralidhar Edam and Kapil Kapri&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 21 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/Stark</link>
+        <guid isPermaLink="true">http://localhost:4000//project/Stark</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Collator</title>
+        <description>&lt;p&gt;Collator is a multi-API testing suite to compare responses from different inputs on a single grid. Just pass the params list for rows and columns and get a UI for comparison across all the combinations of those params. This suite is especially useful for machine learning tasks where images or other visual data are needed to compare to take parameter decisions. Config and make templates for easy testing of your APIs.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Anirudha Vishvakarma and Kinjal Patel&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/collator</link>
+        <guid isPermaLink="true">http://localhost:4000//project/collator</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Ec2 Scheduler</title>
+        <description>&lt;p&gt;ec2-scheduler is a service powered by AWS Lambda. Setup up a tag AutoStartSchedule and AutoStopSchedule with cron values. This gives a flexibility for configuring start and stop times for EC2 Instances as per need. The lambda runs every 30 mins and validate every instance tag values with specified time zone datetime. This lambda has POST api support to start and stop EC2 Instance.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By Pratik patel and Fahim Sakri&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 19 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/ec2-scheduler</link>
+        <guid isPermaLink="true">http://localhost:4000//project/ec2-scheduler</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Celery Autoscale</title>
+        <description>&lt;p&gt;Celery Autoscale is a service powered by AWS Lambda that runs every minute and collect total pending task from broker (Redis or RabbitMQ) put the metric (pendingTask) on Cloudwatch. These celery inspect support redis and rabbitMQ broker.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;This metric can be used for following purpose:&lt;/h3&gt;
+
+&lt;p&gt;  - To trigger scale up and scale down activity for celery worker autoscaling group.&lt;/p&gt;
+&lt;p&gt;  - To trigger alarm mails if pending task count goes too high.&lt;/p&gt;
+
+&lt;p&gt;By Pratik patel and Fahim Sakri&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 18 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/celery-autoscale</link>
+        <guid isPermaLink="true">http://localhost:4000//project/celery-autoscale</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Alb Log Parser</title>
+        <description>&lt;p&gt;
+Alb Log Parser is a tool built on serverless framework which parses the ALB logs and load them in Athena. Logs can be fetched by simple SQL query on Athena table.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+This tool deploys 3 Lambda functions.&lt;/p&gt;
+
+&lt;h3&gt;
+Copy ALB Logs
+&lt;/h3&gt;
+
+&lt;p&gt;
+This function triggeres on the put event of S3 bucket where ALb logs are dumped. When ever a new file is pushed in the bucket from ALB, This func copies that file to project bucket which is created at the time of deployment. It then creates the DB and table in Athena.
+&lt;/p&gt;
+
+&lt;h3&gt;
+Repair Disk Athena
+&lt;/h3&gt;
+&lt;p&gt;This function triggeres once in a day at 12:06 am. Athena creates a new partition for every year then every month and day. Eg if date is 17/02/2018, log file path will be 2018/02/17/{filename}. So every day new partition is created. This function is responsible for loading that new partition by executing a query in athena.&lt;/p&gt;
+
+&lt;h3&gt;
+Fetch Data From Athena
+&lt;/h3&gt;
+&lt;p&gt;This function triggeres after every 5 minutes as ALB push logs every 5 minutess. It executes query to fetch data(by default non 200 http status urls) and post them to logz io.&lt;/p&gt;
+
+&lt;p&gt;By Amboj Goyal and Karandeep Singh Johar&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Feb 2018 17:30:00 +0530</pubDate>
+        <link>http://localhost:4000//project/alb-logs-parser</link>
+        <guid isPermaLink="true">http://localhost:4000//project/alb-logs-parser</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+  </channel>
+</rss>

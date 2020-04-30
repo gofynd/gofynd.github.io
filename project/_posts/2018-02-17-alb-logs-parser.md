@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ALB LOG PARSER"
+title:  "Alb Log Parser"
 date:   2018-02-17 12:00:00
 categories: project
 description: Parse ALB logs and load in Athena using Serverless Framework
