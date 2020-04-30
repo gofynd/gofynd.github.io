@@ -1,6 +1,6 @@
 ---
 layout: externalpost2
-title:  "FYND OPEN API"
+title:  "Fynd Open Api"
 date:   2017-07-13 12:00:00
 categories: project
 description: Build complete omni-channel retail apps with our HTTP/JSON APIs

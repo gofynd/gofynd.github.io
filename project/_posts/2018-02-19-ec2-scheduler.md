@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EC2 SCHEDULER"
+title:  "Ec2 Scheduler"
 date:   2018-02-19 12:00:00
 categories: project
 description: Powered by AWS Lambda to automatically schedule ec2 instances 

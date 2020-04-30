@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ANSIBLE NGINX
+title: Ansible-Nginx
 name: "ansible-nginx"
 date: 2015-06-22 12:00:00
 categories: project

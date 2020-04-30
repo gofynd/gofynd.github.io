@@ -1,0 +1,322 @@
+.div-block-35 {
+  margin-top: 0px;
+  padding-left: 22px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.left-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.helli {
+  width: 588px;
+  height: 330px;
+  max-height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-left: 1px none #000;
+  border-radius: 0px 3px 3px 0px;
+  background-image: url('../images/hover-and-click.gif');
+  background-position: 50% 50%;
+  background-size: 674px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.view-shots {
+  position: relative;
+  top: 0px;
+  width: 106px;
+  margin-top: 0px;
+  padding-right: 6%;
+  padding-left: 0%;
+  color: #5c6bdd;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view-shots:hover {
+  color: #4f5ecc;
+  text-decoration: underline;
+}
+
+.text-block-25 {
+  max-width: 221px;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding: 3px 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #e4e5e6;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #41424c;
+  font-weight: 600;
+}
+
+.section-15 {
+  max-height: 600px;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.parent-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 329px;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 0px 0px 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  background-color: #fff;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: none;
+  border-width: 0.5px;
+  border-color: rgba(54, 204, 155, 0.34);
+  border-radius: 3px;
+  box-shadow: 0 -9px 13px 0 hsla(0, 0%, 86.7%, 0.25), 0 9px 13px 0 hsla(0, 0%, 86.7%, 0.25);
+}
+
+.parent-div:hover {
+  box-shadow: 0 -9px 13px 0 hsla(0, 0%, 86.7%, 0.5), 0 9px 13px 0 hsla(0, 0%, 86.7%, 0.5);
+}
+
+.text-block-24 {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-top: 0px;
+  padding-bottom: 0%;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+}
+
+.text-block-26 {
+  margin-bottom: 0px;
+  padding: 2% 15% 0px 0%;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.body {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-block {
+  position: relative;
+  top: -30px;
+  cursor: pointer;
+}
+
+.link-block-2 {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-35 {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+
+  .left-block{
+    display: block;
+  }
+  .parent-div{
+    height: auto;
+    max-width: 960px;
+  }
+  .view-shots {
+    width: 120px;
+    padding-right: 0%;
+    padding-left: 3%;
+  }
+  .text-block-25 {
+    margin-left: 0%;
+  }
+  .helli{
+    width: 990px;
+
+  }
+  .section-15 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 960px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+  }
+
+  .text-block-24 {
+    width: 90%;
+    margin-left: 0%;
+  }
+  .text-block-26 {
+    width: 100%;
+    padding-right: 0%;
+    padding-bottom: 23px;
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .left-block {
+    display: block;
+    max-height: 100%;
+  }
+  .helli {
+    height: 350px;
+    margin-top: 0px;
+  }
+  .section-15 {
+    overflow: hidden;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .parent-div {
+    width: 550px;
+    height: 670px;
+  }
+  .text-block-24 {
+    width: 90%;
+  }
+  .text-block-26 {
+    width: 100%;
+    padding-right: 3%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-35 {
+    padding-left: 0px;
+        height: 250px;
+  }
+  .left-block {
+    position: static;
+    z-index: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .helli {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 210px;
+    max-height: 210px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 3px;
+    background-size: 370px;
+  }
+  .view-shots {
+    display: none;
+    line-height: 19px;
+  }
+  .text-block-25 {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .section-15 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .parent-div {
+    width: 100%;
+    height: 520px;
+    max-width: 100%;
+    margin-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    box-shadow: none;
+  }
+  .view-shots {
+    display: block;
+}
+  .text-block-24 {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text-block-26 {
+    display: block;
+    margin-bottom: 0px;
+    padding-right: 0%;
+    padding-bottom: 5px;
+    padding-left: 0px;
+  }
+  a.link-block-2.w-inline-block {
+    display: block;
+        padding-top: 50px;
+}
+}

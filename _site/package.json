@@ -1,0 +1,16 @@
+{
+  "name": "fynd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "download": "^6.0.0",
+    "download-file": "^0.1.5",
+    "request": "^2.81.0"
+  }
+}

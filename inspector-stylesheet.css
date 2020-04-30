@@ -1,0 +1,42 @@
+.blog-innerpage-hero {
+    display: block;
+    max-width: 1200px;
+    margin: 80px auto 0%;
+}
+
+.div-block-33-copy-copy-copy {
+    max-width: 1200px;
+    margin: 0px auto 40px;
+    padding-left: 0px;
+}
+.heading-7-copy-copy {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    line-height: 67px;
+}
+.text-block-23-copy-copy-copy {
+    margin-bottom: 0%;
+    margin-left: 0px;
+    border-radius: 0px 3px 3px 0px;
+    color: #41424c;
+    font-size: 20px;
+    line-height: 30px;
+}
+.navbar-8 .w-nav {
+    position: fixed ;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 9px -9px rgba(0, 0, 0, 0.2);
+}
